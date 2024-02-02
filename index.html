@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1><a href="#home">HOME</a></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="#intro">Quem Sou</a></li>
+                    <li><a href="#grid-one">Projetos</a></li>
+                    <li><a href="#gallery">Faculdade</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+        <div class="mian-content intro-content">
+            <div class="intro-text-content">
+                <h2>Computer engineering student</h2>
+                <p></p>
+            </div>
+            <div class="intro-img">
+                <img src="./assets/img/javascript-not-optimized.svg">
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class="white-bg section" alt="Logo de HTML, CSS e JS.">
+        <div class="main-content top3-content">
+            <h2>LUCAS FREITAS</h2>
+            <p>Me chamo Lucas, tenho 20 anos e sou estudante de Engenharia da Computação estando no terceiro semestre pela ESEG - Faculdade do Grupo Etapa</p>
+            <p>No entanto obtive contato com C++ correlacionado ao Arduino e ESP32, R para análise de dados, Python com orientação a objetos, Estrututura de dados e Algoritmos. Atualmente estudando HTML, CSS e JavaScript</p>
+        </div>
+        
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">MEUS PROJETOS</h2>
+            <p class="grid-description">Projetos acadêmicos e pessoais disponíveis no GitHub</p>
+            <div class="grid">
+                <article>
+                    <h3>Reconhecimento<br> Facial</h3>
+                <p>Realizado com intuito de disponibilizar o funcionamento do reconhecimento facial dos dispositivos atuais para desbloquear acessos, assim como utilizado no FaceId da Apple e na Portaria de Prédios.<br>Neste Projeto foi utilizada Linguagem Python em conjunto a biblioteca do OpenCV para o respectivo reconhecimento de imagem.</p>
+                </article>
+                <article>
+                    <h3>Deep<br> Learning</h3>
+                <p>Projeto idealizado para reconhecimento de objetos com mapeamento em box e nomeando o mesmo conforme identificação em repositório possuindo cerca de 100 itens.<br>Neste Projeto foi utilizada Linguagem Python em conjunto a biblioteca do Yolo-v4 para o respectivo reconhecimento de imagem.  </p>
+                </article>
+                <article>
+                <h3>Composteira Inteligente<br>(em andamento)</h3>
+                <p>Projeto acadêmico em andamento com utlização do Python em conjunto ao ESP32 para monitoramento de umidade e notificações push para informar quando regar a mesma e automatizar gráficos em excel para conduzir a produção do adubo gerado.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Faculdade</h2>
+            <p class="grid-description">Demonstração do processo na Faculdade</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="./assets/img/WhatsApp Image 2024-01-30 at 20.49.16.jpeg"/>
+                </div>
+                <div class="gallery-img">
+                    <img src="./assets/img/sala.jpeg"/>
+                </div>
+                <div class="gallery-img">
+                    <img src="./assets/img/codee.jpeg"/>
+                </div>
+                <div class="gallery-img">
+                    <img src="./assets/img/duas-telas.jpeg"/>
+                </div>
+                <div class="gallery-img">
+                    <img src="./assets/img/rec-obj.jpeg"/>
+                </div>
+                <div class="gallery-img">
+                    <img src="./assets/img/arduino.jpeg"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Computer engineering student</h2>
+            </div>
+            <div class="intro-img">
+                <img src="./assets/img/javascript-not-optimized.svg">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend> Contact me</legend>
+                    <div class="form-group">
+                        <label for="kedin">Linkedin</label>
+                        <a target="_blank" href="https://www.linkedin.com/in/lucas-freitas-7a2238241/">
+                            <button type="submit" class="caixas">
+                                <img class="conted" src="./assets/img/linkedin-161-svgrepo-com.svg">
+                            </button>
+                        </a>
+                    </div>
+                    <div class="form-group">
+                        <label for="git">GitHub</label>
+                        <a target="_blank" href="https://github.com/luccasilvx">
+                            <button type="submit" class="caixas">
+                                <img class="conted" src="./assets/img/github-142-svgrepo-com.svg">
+                            </button>
+                        </a>
+                    </div>
+                    <div class="form-group">
+                        <label for="mail">E-mail</label>
+                        <a target="_blank" href="mailto:lucafreitasilva@gmail.com">
+                            <button type="submit" class="caixas">
+                                <img class="conted" src="./assets/img/email-8-svgrepo-com.svg">
+                            </button>
+                        </a>
+                    </div>
+                    <div class="form-group">
+                        <label for="curriculum">Currículo</label>
+                        <a target="_blank" href="https://drive.google.com/file/d/11vvAF1KLfkCUlBql6j4Oyb31q8-XNsrc/view?usp=drive_link">
+                            <button type="submit" class="caixas">
+                                <img class="conted" src="./assets/img/curriculum-portfolio-svgrepo-com.svg">
+                            </button>
+                        </a>
+                    </div>
+                </fieldset>
+            </div>
+        
+    </section>
+
+    <footer id="footer" class="footer white-bg contact-form">
+        <p>
+            <a target="_blank" href="https://github.com/luccasilvx">
+                Feito com <span class="heart">♡</span> por Lucas Freitas</a>
+        </p>
+
+</div>
+
+
+</body>
+</html>
